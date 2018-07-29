@@ -1,0 +1,55 @@
+body {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3rem;
+  background-color: #A9CCE3;
+  background-image: linear-gradient(white 2px, transparent 2px),
+linear-gradient(90deg, white 2px, transparent 2px),
+linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px
+}
+
+h1 {
+  font-family: Monoton;
+  font-size: 70px;
+  margin: 0.2em;
+  color: #154360;
+}
+
+h2 {
+  margin: 1em 0 0.25em;
+  color: #273746;
+}
+
+h2:first-of-type {
+  margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+  border: 1px solid #273746;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  color: #273746;
+  background-color: white;
+}
+
+tr {
+  height: 30px;
+}
+
+td {
+  width: 30px;
+}
+
+input[type="number"] {
+  width: 5rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
